@@ -28,7 +28,7 @@ true if aChar contains the letter A.*/
 #include <iostream>
 using namespace std;
 
-// Converts 12-hour format to 24-hour format
+//Converts 12-hour format to 24-hour format
 int to24Hour(int hours, bool isAM) {
     if (hours == 12) {
         return isAM ? 0 : 12;
@@ -36,19 +36,19 @@ int to24Hour(int hours, bool isAM) {
     return isAM ? hours : hours + 12;
 }
 
-// Converts full time (hours, minutes, isAM) to total minutes since midnight
+//Converts full time (hours, minutes, isAM) to total minutes since midnight
 int toTotalMinutes(int hours, int minutes, bool isAM) {
     int hour24 = to24Hour(hours, isAM);
     return hour24 * 60 + minutes;
 }
 
-// Computes difference between two times (start → future)
+//Computes difference between two times (start to future)
 int computeDifference(int sh, int sm, bool sAM, int fh, int fm, bool fAM) {
     int startMinutes = toTotalMinutes(sh, sm, sAM);
     int futureMinutes = toTotalMinutes(fh, fm, fAM);
 
     int diff = futureMinutes - startMinutes;
-    if (diff < 0) diff += 24 * 60; // Handle wrap-around midnight
+    if (diff < 0) diff += 24 * 60; //Handle wrap-around midnight
 
     return diff;
 }
