@@ -5,8 +5,7 @@ the presence of this problem in a programming book not as silly as it
 might seem? What problem that programmers have does this question 
 address?
 
-You need to convert 100 meters to feet first.
-
+real life
 1 meter = 3.28084 feet
 
 So 100 meters = 328.084 feet*/
