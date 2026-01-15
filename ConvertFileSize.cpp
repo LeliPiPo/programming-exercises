@@ -11,6 +11,7 @@ with G for gigabytes, M for Megabytes and K for Kilobytes. The program
 should then output the size of the file in each of the corresponding 
 smaller file size types. For example, if the user enters the file size in 
 megabytes, the program should output the file size in kilobytes and bytes. */
+/*expand*/
 #include <iostream>
 using namespace std;
 int main()
