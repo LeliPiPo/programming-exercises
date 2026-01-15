@@ -11,6 +11,7 @@ gross pay, each withholding amount, and the net take-home pay for the
 week. For a harder version, write your program so that it allows the calcula
 tion to be repeated as often as the user wishes. If this is a class exercise, ask 
 your instructor whether you should do this harder version*/
+/*expand func*/
   #include <iostream>
 using namespace std;
 
