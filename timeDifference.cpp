@@ -48,6 +48,6 @@ int main() {
 
     int diff = computeDifference(sh, sm, sAM, fh, fm, fAM);
     cout << "\nTime difference is: " << diff << " minutes." << endl;
-
+/*test for clarity*/
     return 0;
 }
