@@ -40,7 +40,7 @@ int main()
     cout << "Enter the seconds passed in the current minute: ";
     cin >> Seconds;
       if(Seconds < 0 || Seconds > 59){
-        cout << "try again\n";
+        cout << "try again\n"; /*update with smt more fancy*/
         cin >> Seconds;
     }
     }while(Seconds < 0 || Seconds > 59);
