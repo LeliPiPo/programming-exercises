@@ -1,4 +1,4 @@
-/*use of arrrays*/
+/*use of arrays*/
 #include <iostream>
 using namespace std;
 
