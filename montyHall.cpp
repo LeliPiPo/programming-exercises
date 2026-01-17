@@ -25,7 +25,7 @@ using namespace std;
 int main() {
     random_device rd;
     mt19937 gen(rd());
-    uniform_int_distribution<> dist(1, 3); // for picking doors
+    uniform_int_distribution<> dist(1, 3); //for picking doors
 
     int stickWins = 0, switchWins = 0;
     int simulations = 10000;
@@ -47,7 +47,7 @@ int main() {
         uniform_int_distribution<> hostDist(0, count - 1);
         int hostOpens = hostOptions[hostDist(gen)];
 
-        // Player sticks or switches
+        //player sticks or switches
         int switchPick;
         for (int door = 1; door <= 3; ++door) {
             if (door != playerPick && door != hostOpens) {
