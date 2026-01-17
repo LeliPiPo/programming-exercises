@@ -8,9 +8,7 @@ to cover the extra cost of health insurance beyond what the employer pays.
 Write a program that will read in the number of hours worked in a week 
 and the number of dependents as input and will then output the worker’s 
 gross pay, each withholding amount, and the net take-home pay for the 
-week. For a harder version, write your program so that it allows the calcula
-tion to be repeated as often as the user wishes. If this is a class exercise, ask 
-your instructor whether you should do this harder version*/
+week.*/
 /*expand func*/
   #include <iostream>
 using namespace std;
