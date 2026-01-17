@@ -20,7 +20,7 @@ current time using the command srand(time(NULL));*/
 
 using namespace std;
 
-//Function to generate random integer in range [min, max]
+//Function to generate random integer in range (min, max)
 int getRandomNumber(int min, int max) {
     static mt19937 rng(static_cast<unsigned int>(time(nullptr)));
     uniform_int_distribution<int> dist(min, max);
@@ -98,7 +98,7 @@ int main() {
           }
           }
 
-    cout << "\n--- Final Score ---" << endl;
+    cout << "\n Final Score **" << endl;
     cout << "Team 1: " << team1Score << endl;
     cout << "Team 2: " << team2Score << endl;
 
