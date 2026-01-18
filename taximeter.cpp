@@ -26,7 +26,7 @@ int main()
    
   if(kilometers > 0){
       kilometers = kilometers * PER_KM;
-  }
+                    }
   else kilometers = 0;
   
   if(minutes > 0){
@@ -36,7 +36,7 @@ int main()
   
   if(startTime >= 2300 || startTime <= 0600){
       startTime = startTime * SURCHARGE;
-  }
+   }
   else startTime = 0;
   
   fare = HIRE_CHARGE + kilometers + startTime + kilometers;
