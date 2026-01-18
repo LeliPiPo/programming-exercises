@@ -9,7 +9,7 @@ Write a program that will read in the number of hours worked in a week
 and the number of dependents as input and will then output the worker’s 
 gross pay, each withholding amount, and the net take-home pay for the 
 week.*/
-/* expand func */
+
   #include <iostream>
 using namespace std;
 
