@@ -4,6 +4,7 @@ gigabytes are related by the following:
  a. One kilobyte is equal to 1024 bytes.
  b. One megabyte is equal to 1024 kilobytes.
  c. One gigabyte is equal to 1024 megabytes.
+
  Write a program that lets the user convert the size of a file from gigabytes, 
 megabytes, or kilobytes to bytes. The program should prompt the user to 
 enter the size of the file and the units the file size is being measured in, 
@@ -11,7 +12,7 @@ with G for gigabytes, M for Megabytes and K for Kilobytes. The program
 should then output the size of the file in each of the corresponding 
 smaller file size types. For example, if the user enters the file size in 
 megabytes, the program should output the file size in kilobytes and bytes. */
-/*expand*/
+
 #include <iostream>
 using namespace std;
 int main()
