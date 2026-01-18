@@ -18,6 +18,7 @@ probability of winning for both strategies. Be sure that your program exactly
 simulates the process of selecting the door, revealing one, and then switching. 
 Do not make assumptions about the actual solution (for example, simply 
 assuming that there is a 1/3 or 1/2 chance of getting the prize).*/
+
 #include <iostream>
 #include <random>
 using namespace std;
@@ -34,7 +35,7 @@ int main() {
         int carDoor = dist(gen);
         int playerPick = dist(gen);
 
-        // Determine host options
+        //determine host options
         int hostOptions[2];
         int count = 0;
         for (int door = 1; door <= 3; ++door) {
@@ -43,7 +44,7 @@ int main() {
             }
         }
 
-        // Host picks a door to open
+        //host picks a door to open
         uniform_int_distribution<> hostDist(0, count - 1);
         int hostOpens = hostOptions[hostDist(gen)];
 
@@ -51,7 +52,7 @@ int main() {
         int switchPick;
         for (int door = 1; door <= 3; ++door) {
             if (door != playerPick && door != hostOpens) {
-                switchPick = door;  // only one door left
+                switchPick = door;  //only one door left
                 break;
             }
         }
