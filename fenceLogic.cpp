@@ -7,8 +7,7 @@ address?
 
 real life
 1 meter = 3.28084 feet
-
-So 100 meters = 328.084 feet*/
+100 meters = 328.084 feet*/
 #include <iostream>
 using namespace std;
 
