@@ -18,8 +18,8 @@ using namespace std;
 int main()
 {
     double kilobytes = 1024.0;
-   // double megabytes = 2048.0;
-   // double gigabytes = 3096.0;
+    // double megabytes = 2048.0;
+    // double gigabytes = 3096.0;
     int size, kiloSize, megaSize, gigaSize;
     char userUnit, convertedUnit;
     
