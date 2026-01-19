@@ -20,7 +20,7 @@ Do not make assumptions about the actual solution (for example, simply
 assuming that there is a 1/3 or 1/2 chance of getting the prize).*/
 
 #include <iostream>
-#include <random>
+#include <random> //new version of crandom
 using namespace std;
 
 int main() {
